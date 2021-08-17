@@ -2,16 +2,24 @@
 <html>
 <head>
 <script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
+function west() {
+  document.getElementById("demo").innerHTML = "Going west";
 }
+function north() {
+  document.getElementById("demo").innerHTML = "Going north";
+}
+
 </script>
 </head>
 <body>
 
 <h1>A Web Page</h1>
 <p id="demo">A Paragraph</p>
+<button type="button" onclick="west()">Go West</button>
+<button type="button" onclick="north()">Go North</button>
 <button type="button" onclick="myFunction()">Try it</button>
+<button type="button" onclick="myFunction()">Try it</button>
+
 
 </body>
 </html>
