@@ -18,8 +18,6 @@ locations["beach"] = {
  }
 };
 
-drawLocation("start");
-
 function drawLocation(loc) {
   var text = "<html><body>" +
     locations[loc].description + "<p>";
