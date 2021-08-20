@@ -37,5 +37,8 @@ function drawLocation(loc) {
 
 function goLocation(loc) {
   drawLocation(loc);
-  // alert(loc);
+}
+
+function start() {
+  drawLocation("start");
 }
